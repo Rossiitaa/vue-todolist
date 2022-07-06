@@ -2,6 +2,10 @@ li.done {
     text-decoration: line-through;
 }
 
+li {
+    list-style: none;
+}
+
 i {
     cursor: pointer;
 }
