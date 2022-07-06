@@ -4,6 +4,7 @@ li.done {
 
 li {
     list-style: none;
+    cursor: pointer;
 }
 
 i {

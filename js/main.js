@@ -32,8 +32,9 @@ const app = new Vue({
                 alert('Don’t leave empty');
             }
         },
+        reverseDone : function(element) {
+            element.done = !element.done;   
+            }
+        }
     }
-
-
-
-});
+);

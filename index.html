@@ -18,7 +18,7 @@
                 <div class="col-12 p-3 text-center">
                     <h1>To Do List</h1>
                     <ul class="list-group">
-                        <li v-for="(element , index) in todos" :class="{done: element.done === true}">
+                        <li v-for="(element , index) in todos" :class="{done: element.done === true}" @click="reverseDone(element)">
 
                             <i class="fa-solid fa-circle-xmark" @click="deleteElement(index)"></i>
                             
